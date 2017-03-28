@@ -1,0 +1,22 @@
+{
+  "name": "rebuild-native-modules-for-electron-deps-win",
+  "version": "1.0.0",
+  "description": "Headers and libs used during the build of the native modules for Electron.",
+  "main": "index.js",
+  "dependencies": {
+    "extract-zip": "1.0.3"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbez/rebuild-native-modules-for-electron-deps-win.git"
+  },
+  "author": "Volodymyr Bezuglyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbez/rebuild-native-modules-for-electron-deps-win/issues"
+  },
+  "homepage": "https://github.com/vbez/rebuild-native-modules-for-electron-deps-win#readme"
+}
