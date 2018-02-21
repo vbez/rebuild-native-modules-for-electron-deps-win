@@ -5,7 +5,7 @@ var path = require('path')
 var extract = require('extract-zip')
 
 const distDir = path.join(__dirname, 'dist')
-const zipFile = path.join(__dirname, 'iojs-1.7.8.zip')
+const zipFile = path.join(__dirname, 'iojs-1.8.2.zip')
 extractFile(zipFile, distDir)
 
 function extractFile (zipPath, toDir) {
