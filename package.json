@@ -1,6 +1,6 @@
 {
   "name": "rebuild-native-modules-for-electron-deps-win",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Headers and libs used during the build of the native modules for Electron 1.8.2.",
   "main": "index.js",
   "dependencies": {
